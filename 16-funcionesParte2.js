@@ -1,5 +1,6 @@
-function ingresarSistemas(nombre='',apellidos='') {
+function ingresarSistemas(nombre="maria",apellidos="perez") {
     console.log(`Bienvenido ${nombre} ${apellidos} puedes ingresar al sistema`);
     
 }
-ingresarSistemas(nombre,"rojas");
+ingresarSistemas("Rojas","Gonzalez");
+ingresarSistemas("rojas");
